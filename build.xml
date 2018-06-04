@@ -62,6 +62,7 @@
             <classpath refid="Demo.classpath"/>
         </junit>
     </target>
+      <target name="test"> </target>
     <target name="junitreport">
         <junitreport todir="${junit.output.dir}">
             <fileset dir="${junit.output.dir}">
